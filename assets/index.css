@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+body {
+  display: block;
+  background-color: lightgray;
+  padding-top: 96px;
+  margin: 0;
+  width: 1880px;
+  line-height: 24px;
+  text-align: center;
+  color: #111;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Barre de navigation*/
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  width: 2000px;
+  height: 56px;
+  padding: 8px 16px;
+  line-height: 24px;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+nav .container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 1140px;
+  height: 40px;
+  align-items: center;
+  margin-left: 354px;
+  margin-right: 354px;
+  text-align: left;
+}
+
+nav .logo {
+  width: 160px;
+  height: 17px;
+  justify-content: center;
+  padding: 0px;
+  cursor: pointer;
+}
+nav .menus {
+  display: block;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12.8px;
+  padding-right: 25.6px;
+  padding-left: 16px;
+  line-height: 19.2px;
+}
+nav .menus a {
+  margin-right: 20px;
+  cursor: pointer;
+}
+/* Fin de la barre de navigation*/
+
+/* Container slide à finalier*/
+
+header {
+  display: flex;
+  max-width: 1140px;
+  max-height: 400px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.slider {
+  overflow: hidden;
+}
+
+.slides {
+  width: calc(1140px * 4);
+  animation: sliding 10s infinite;
+}
+
+@keyframes sliding {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-1140px);
+  }
+  50% {
+    transform: translateX(-2280px);
+  }
+  75% {
+    transform: translateX(-3420px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.slide1 {
+  background: url("https://www.demotivateur.fr/img/home-couv/1650467261-26553398401459820.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  float: left;
+  width: 1140px;
+  height: 400px;
+}
+
+.slide2 {
+  background: url("https://www.demotivateur.fr/img/home-couv/1649749034-876356364648775653.jpg");
+  width: 1140px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  float: left;
+}
+
+.slide3 {
+  background: url("https://www.demotivateur.fr/img/home-couv/1648825777-978363747753876643.jpg");
+  width: 1140px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  float: left;
+}
+
+.slide4 {
+  background: url("https://www.demotivateur.fr/img/home-couv/1648047628-9876544565.jpg");
+  width: 1140px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  float: left;
+}
+
+.image-text {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 13px;
+  text-align: center;
+}
+
+.texte2 {
+  color: #fff;
+  font-size: 25px;
+  align-items: center;
+}
+
+/* Fin container slide*/
+
+/* Grille */
+
+.grille {
+  background: #fff;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding-top: 10px;
+}
+
+.titre1 {
+  text-transform: uppercase;
+  color: #f2cd13;
+  font-size: 25px;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.columns {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 340px 340px 340px;
+  gap: 5px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.carre > img {
+  border-radius: 20px;
+  margin: 0px;
+  padding: 0px;
+  width: 330px;
+}
+
+.carre h3 {
+  color: #333333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.titre2 {
+  font-size: 25px;
+  font-style: oblique;
+  font-weight: bold;
+  color: #000000;
+}
+.titre3 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-style: oblique;
+  font-weight: bold;
+  color: #2594bf;
+}
+.titre4 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-style: oblique;
+  font-weight: bold;
+  color: #1ea16b;
+}
+.titre5 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-style: oblique;
+  font-weight: bold;
+  color: #50408f;
+}
+.titre6 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-style: oblique;
+  font-weight: bold;
+}
+.titre7 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-style: oblique;
+  font-weight: bold;
+  color: #4396a3;
+}
+.titre8 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-style: oblique;
+  font-weight: bold;
+  color: #d95094;
+}
+.titre9 {
+  font-size: 25px;
+  font-style: oblique;
+  font-weight: bold;
+  color: #000000;
+}
+
+hr {
+  display: block;
+  height: 0px;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  width: 777px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Grille*/
+
+/*Footer*/
+
+/*Fin Footer*/

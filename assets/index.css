@@ -67,6 +67,30 @@ nav .menus a {
   margin-right: 20px;
   cursor: pointer;
 }
+
+.input-recherche{
+  border: .0625rem #111;
+  border-radius: 20px;
+  background-color: rgb(31, 29, 29);
+  width: 200px;
+  height: 35px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+}
+
+.input-recherche a{
+  color: rgba(255, 255, 255, 0.308);
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 0px;
+  margin: 0px;
+  line-height: 40px;
+  cursor: pointer;
+}
 /* Fin de la barre de navigation*/
 
 /* Container slide à finalier*/
@@ -267,5 +291,46 @@ hr {
 /* Grille*/
 
 /*Footer*/
+
+footer {
+  background: #000000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.footer > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer > div > h3 {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.footer > div > .column > p {
+  font-size: 12px;
+  padding: 0px;
+  margin: 0px;
+}
+
 
 /*Fin Footer*/

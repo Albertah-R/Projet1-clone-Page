@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
 body {
   display: block;
   background-color: lightgray;
-  padding-top: 96px;
+  padding-top: 6rem;
   margin: 0;
-  width: 1880px;
-  line-height: 24px;
+  width: 117.5rem;
+  line-height: 1.5rem;
   text-align: center;
   color: #111;
   font-family: "Source Sans Pro", sans-serif;
@@ -25,82 +26,86 @@ nav {
   align-items: center;
   background-color: black;
   color: #fff;
-  width: 2000px;
-  height: 56px;
-  padding: 8px 16px;
-  line-height: 24px;
+  width: 125rem;
+  height: 3.5rem;
+  padding: .5rem 1rem;
+  line-height: 1.5rem;
   text-align: center;
-  left: 0px;
-  right: 0px;
-  top: 0px;
+  left: 0rem;
+  right: 0rem;
+  top: 0rem;
 }
+
 nav .container {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
-  width: 1140px;
-  height: 40px;
+  width: 71.25rem;
+  height: 2.5rem;
   align-items: center;
-  margin-left: 354px;
-  margin-right: 354px;
+  margin-left: 22.125rem;
+  margin-right: 22.125rem;
   text-align: left;
 }
 
 nav .logo {
-  width: 160px;
-  height: 17px;
+  width: 10rem;
+  height: 1.0625rem;
   justify-content: center;
-  padding: 0px;
+  padding: 0rem;
   cursor: pointer;
 }
+
 nav .menus {
   display: block;
   flex-wrap: wrap;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 12.8px;
-  padding-right: 25.6px;
-  padding-left: 16px;
-  line-height: 19.2px;
+  font-size: .8rem;
+  padding-right: 1.6rem;
+  padding-left: 1rem;
+  line-height: 1.2rem;
 }
+
 nav .menus a {
-  margin-right: 20px;
+  margin-right: 1.25rem;
   cursor: pointer;
 }
 
-.input-recherche{
-  border: .0625rem #111;
-  border-radius: 20px;
+.input-recherche {
+  border: 1px #111;
+  border-radius: 1.25rem;
   background-color: rgb(31, 29, 29);
-  width: 200px;
-  height: 35px;
+  width: 12.5rem;
+  height: 2.1875rem;
   display: flex;
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: center;
-  padding: 0px;
+  padding: 0rem;
 }
 
-.input-recherche a{
+.input-recherche a {
   color: rgba(255, 255, 255, 0.308);
   text-decoration: none;
-  font-size: 12px;
+  font-size: .75rem;
   font-weight: 700;
-  padding: 0px;
-  margin: 0px;
-  line-height: 40px;
+  padding: 0rem;
+  margin: 0rem;
+  line-height: 2.5rem;
   cursor: pointer;
 }
+
 /* Fin de la barre de navigation*/
 
 /* Container slide à finalier*/
 
 header {
   display: flex;
-  max-width: 1140px;
-  max-height: 400px;
-  margin-left: 400px;
-  margin-right: 400px;
+  max-width: 71.25rem;
+  max-height: 25rem;
+  margin-left: 25rem;
+  margin-right: 25rem;
 }
 
 .slider {
@@ -108,7 +113,7 @@ header {
 }
 
 .slides {
-  width: calc(1140px * 4);
+  width: calc(71.25rem * 4);
   animation: sliding 10s infinite;
 }
 
@@ -116,15 +121,19 @@ header {
   0% {
     transform: translateX(0);
   }
+
   25% {
-    transform: translateX(-1140px);
+    transform: translateX(-71.25rem);
   }
+
   50% {
-    transform: translateX(-2280px);
+    transform: translateX(-142.5rem);
   }
+
   75% {
-    transform: translateX(-3420px);
+    transform: translateX(-213.75rem);
   }
+
   100% {
     transform: translateX(0);
   }
@@ -136,14 +145,14 @@ header {
   flex-direction: column;
   justify-content: center;
   float: left;
-  width: 1140px;
-  height: 400px;
+  width: 71.25rem;
+  height: 25rem;
 }
 
 .slide2 {
   background: url("https://www.demotivateur.fr/img/home-couv/1649749034-876356364648775653.jpg");
-  width: 1140px;
-  height: 400px;
+  width: 71.25rem;
+  height: 25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -152,8 +161,8 @@ header {
 
 .slide3 {
   background: url("https://www.demotivateur.fr/img/home-couv/1648825777-978363747753876643.jpg");
-  width: 1140px;
-  height: 400px;
+  width: 71.25rem;
+  height: 25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -162,8 +171,8 @@ header {
 
 .slide4 {
   background: url("https://www.demotivateur.fr/img/home-couv/1648047628-9876544565.jpg");
-  width: 1140px;
-  height: 400px;
+  width: 71.25rem;
+  height: 25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -174,13 +183,13 @@ header {
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: .8125rem;
   text-align: center;
 }
 
 .texte2 {
   color: #fff;
-  font-size: 25px;
+  font-size: 1.5625rem;
   align-items: center;
 }
 
@@ -190,15 +199,15 @@ header {
 
 .grille {
   background: #fff;
-  margin-left: 400px;
-  margin-right: 400px;
-  padding-top: 10px;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  padding-top: .625rem;
 }
 
 .titre1 {
   text-transform: uppercase;
   color: #f2cd13;
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-style: oblique;
   font-weight: bold;
 }
@@ -206,74 +215,81 @@ header {
 .columns {
   display: grid;
   justify-content: center;
-  grid-template-columns: 340px 340px 340px;
-  gap: 5px;
-  margin-left: 400px;
-  margin-right: 400px;
+  grid-template-columns: 21.25rem 21.25rem 21.25rem;
+  gap: .3125rem;
+  margin-left: 25rem;
+  margin-right: 25rem;
 }
 
-.carre > img {
-  border-radius: 20px;
-  margin: 0px;
-  padding: 0px;
-  width: 330px;
+.carre>img {
+  border-radius: 1.25rem;
+  margin: 0rem;
+  padding: 0rem;
+  width: 20.625rem;
 }
 
 .carre h3 {
   color: #333333;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
 }
 
 .titre2 {
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-style: oblique;
   font-weight: bold;
   color: #000000;
 }
+
 .titre3 {
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-style: oblique;
   font-weight: bold;
   color: #2594bf;
 }
+
 .titre4 {
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-style: oblique;
   font-weight: bold;
   color: #1ea16b;
 }
+
 .titre5 {
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-style: oblique;
   font-weight: bold;
   color: #50408f;
 }
+
 .titre6 {
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-style: oblique;
   font-weight: bold;
 }
+
 .titre7 {
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-style: oblique;
   font-weight: bold;
   color: #4396a3;
 }
+
 .titre8 {
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-style: oblique;
   font-weight: bold;
   color: #d95094;
 }
+
 .titre9 {
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-style: oblique;
   font-weight: bold;
   color: #000000;
@@ -281,11 +297,11 @@ header {
 
 hr {
   display: block;
-  height: 0px;
-  margin-bottom: 32px;
-  margin-top: 32px;
-  width: 777px;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  height: 0rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  width: 48.5625rem;
+  border-top: .0625rem solid rgba(0, 0, 0, 0.1);
 }
 
 /* Grille*/
@@ -297,14 +313,17 @@ footer {
   color: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  margin-left: 400px;
-  margin-right: 400px;
+  padding: 1.25rem;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  text-align: left;
 }
 
-.footer {
+/*justify-content: ;
+  align-items: ;
+}*/
+
+.modal-footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -312,25 +331,37 @@ footer {
   width: 100%;
 }
 
-.footer > div {
+.footer>div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
-.footer > div > h3 {
-  font-size: 20px;
+.modal-footer>.logo>.def {
+  height: 3.8232rem;
+  font-size: .85rem;
+  width: 15.9375rem;
+}
+
+.modal-footer>div>h3 {
+  font-size: 1.25rem;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: .625rem;
 }
 
-.footer > div > .column > p {
-  font-size: 12px;
-  padding: 0px;
-  margin: 0px;
+.modal-footer>div>.column>p {
+  font-size: .75rem;
+  padding: 0rem;
+  margin: 0rem;
 }
 
-
+.modal-footer>div>.column {
+  display: flex;
+  flex-direction: column;
+  font-size: .75rem;
+  padding: 0rem;
+  margin: 0rem;
+}
 /*Fin Footer*/
